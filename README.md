@@ -37,6 +37,9 @@ A simple Python-based port scanner that scans a given target IP for open ports. 
 
 🛠 Requirements
 
-Python 3 or  Kali Linux or any Linux/Windows system with Python installed
+Python 3 or  Kali Linux or any Linux/Windows system with Python installed.
+
+⚠️ Legal Disclaimer
+This tool is for educational purposes only. Do not use it on unauthorized networks.
 
        
