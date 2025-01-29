@@ -1,10 +1,13 @@
 # Port-Scanner
-##Python program to scan ports
+## Python program to scan ports
 A simple Python-based port scanner that scans a given target IP for open ports. This tool is useful for security testing and network analysis.
 
-🚀 Features
+**🚀 Features**
+
 ✔️ Scans a target IP for open ports
+
 ✔️ Supports multi-threading for faster scanning
+
 ✔️ Allows user-defined port ranges
 
 📌 Installation & Usage
