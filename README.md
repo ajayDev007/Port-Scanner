@@ -14,17 +14,17 @@ A simple Python-based port scanner that scans a given target IP for open ports. 
 
 1️⃣.) Install Python (if not already installed)
 
-**`sudo apt update && sudo apt install python3`**
+```sudo apt update && sudo apt install python3```
 
 2️⃣.) Clone the Repository
 
-**`git clone https://github.com/YourGitHubUsername/port-scanner.git`**
+```git clone https://github.com/ajayDev007/port-scanner.git```
 
-**`cd port_scanner.py`**
+```cd port_scanner.py```
 
 3️⃣.)  Run the Script
 
-**`python3 port_scanner.py`**
+```python3 port_scanner.py```
 
 4️⃣.)  Enter the Target Details
 
