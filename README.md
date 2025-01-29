@@ -2,8 +2,8 @@
 Python program to scan ports
 
 Single threaded Port scanner(can be slow compared to multi threaded):
-import socket
 
+import socket
 def scan_port(ip, port):
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
