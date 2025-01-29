@@ -29,14 +29,19 @@ A simple Python-based port scanner that scans a given target IP for open ports. 
 4️⃣.)  Enter the Target Details
 
 **`Target IP (e.g., 127.0.0.1)`**
+
 **`Port range (e.g., 1-1000)`**
 
 🔹 Example Output
 
 **`Scanning 192.168.1.1 from port 1 to 1000...`**
+
 **`Port 22 is OPEN`**
+
 **`Port 80 is OPEN`**
+
 **`Port 443 is OPEN`**
+
 
 🛠 Requirements
 
