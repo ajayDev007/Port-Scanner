@@ -8,6 +8,7 @@ A simple Python-based port scanner that scans a given target IP for open ports. 
 ✔️ Allows user-defined port ranges
 
 📌 Installation & Usage
+
 1️⃣.) Install Python (if not already installed)
 
 sudo apt update && sudo apt install python3
