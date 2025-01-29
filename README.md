@@ -1,28 +1,40 @@
 # Port-Scanner
 ##Python program to scan ports
+A simple Python-based port scanner that scans a given target IP for open ports. This tool is useful for security testing and network analysis.
 
-Single threaded Port scanner(can be slow compared to multi threaded):
+🚀 Features
+✔️ Scans a target IP for open ports
+✔️ Supports multi-threading for faster scanning
+✔️ Allows user-defined port ranges
 
-import socket
-def scan_port(ip, port):
-    try:
-        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        s.settimeout(1)  # Timeout for connection attempt
-        result = s.connect_ex((ip, port))  # Returns 0 if open, error code otherwise
-        if result == 0:
-            print(f"Port {port} is OPEN")
-        s.close()
-    except Exception as e:
-        print(f"Error scanning port {port}: {e}")
+📌 Installation & Usage
+1️⃣.) Install Python (if not already installed)
 
-if __name__ == "__main__":
-    target = input("Enter target IP: ")
-    start_port = int(input("Enter start port: "))
-    end_port = int(input("Enter end port: "))
+sudo apt update && sudo apt install python3
 
-    print(f"Scanning {target} from port {start_port} to {end_port}...")
+2️⃣.) Clone the Repository
 
-    for port in range(start_port, end_port + 1):
-        scan_port(target, port)
+git clone https://github.com/YourGitHubUsername/port-scanner.git
 
+cd port_scanner.py
 
+3️⃣.)  Run the Script
+
+python3 port_scanner.py
+
+4️⃣.)  Enter the Target Details
+Target IP (e.g., 127.0.0.1)
+Port range (e.g., 1-1000)
+
+🔹 Example Output
+
+Scanning 192.168.1.1 from port 1 to 1000...
+Port 22 is OPEN
+Port 80 is OPEN
+Port 443 is OPEN
+
+🛠 Requirements
+
+Python 3or  Kali Linux or any Linux/Windows system with Python installed
+
+       
